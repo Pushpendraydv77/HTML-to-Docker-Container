@@ -34,13 +34,17 @@ CMD ["nginx", "-g", "daemon off;"]
 
 Dockerfile Breakdown
 
-Base Image:- We use the official Nginx image (nginx:alpine) as the base image. Alpine is a lightweight Linux distribution, making the image small and efficient.
+Base Image:- 
+We use the official Nginx image (nginx:alpine) as the base image. Alpine is a lightweight Linux distribution, making the image small and efficient.
 
-Copy Files:- We copy all the files from the current directory (.) to the Nginx HTML directory (/usr/share/nginx/html).
+Copy Files:-
+We copy all the files from the current directory (.) to the Nginx HTML directory (/usr/share/nginx/html).
 
-Expose Port:- We expose port 80, the default HTTP port, so that the web server can be accessed.
+Expose Port:- 
+We expose port 80, the default HTTP port, so that the web server can be accessed.
 
-CMD Instruction:- The CMD instruction runs Nginx in the foreground (daemon off;), ensuring that the Docker container remains running.
+CMD Instruction:- 
+The CMD instruction runs Nginx in the foreground (daemon off;), ensuring that the Docker container remains running.
 
 ## Building the Docker Image
  
