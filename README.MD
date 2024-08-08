@@ -60,7 +60,7 @@ Once you build the docker image you can run the docker image but running
 ```
 Note: You can use any port am using port 80
  
-Now open your web browser and go to http://localhost:8080 to see your website.
+Now open your web browser and go to http://localhost:80 to see your website.
 
 
 
